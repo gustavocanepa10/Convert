@@ -76,10 +76,13 @@ function convertCurrency(amount,coinprice,symbol) {
        description.textContent = `${symbol} 1 = ${formatCurrencyBRL(coinprice)}`
         
         // calcula o total
-        total = amount * coinprice
+        let total = amount * coinprice
+        
+        // Formatar o valor total.
+        total = formatCurrencyBRL(total).replace("R$", "")
 
         // exibe o total
-        result.textContent = total
+        result.textContent = `${total} Reais`
 
         
 
