@@ -1,7 +1,7 @@
 // Cotação de moedas do dia
-const USD = 4.87
-const EUR = 5.32
-const GBP = 6.08
+const USD = 5.80
+const EUR = 6.13
+const GBP = 7.31
 
 
 
@@ -15,7 +15,7 @@ const result = document.getElementById("result")
 
 
 // Manipulando o input "amount" para receber somente números
-amount.addEventListener("input", (event) => {
+amount.addEventListener("input", () => {
     const regexCharacter = /\D+/g // expressão regular para receber somente números
     amount.value = amount.value.replace(regexCharacter, "")
     console.log(amount.value)
