@@ -1,7 +1,7 @@
 // Cotação de moedas do dia
-const USD = 5.80
-const EUR = 6.13
-const GBP = 7.31
+const USD = 6.10
+const EUR = 6.41
+const GBP = 7.75
 
 
 
