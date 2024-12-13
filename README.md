@@ -13,7 +13,5 @@ Este projeto utiliza APIs de taxas de câmbio para fornecer dados atualizados e 
 ## Funcionalidades
 
 - **Conversão de Moedas**: Insira um valor e selecione as moedas de origem e destino para obter a conversão.
-- **Atualização em Tempo Real**: As taxas de câmbio são atualizadas com base em dados fornecidos por uma API externa.
 - **Interface Responsiva**: O aplicativo funciona bem em dispositivos móveis e desktops.
-- **Histórico de Conversões**: Armazena localmente as últimas conversões realizadas (caso implementado).
 - **Seleção de Moedas**: Suporte para uma ampla variedade de moedas globais.
